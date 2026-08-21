@@ -171,7 +171,7 @@ const readConvexErrorMessage = (error: unknown, fallback: string) => {
   return fallback;
 };
 
-const requireMobileAccountOwner = async (
+export const requireMobileAccountOwner = async (
   ctx: ActionCtx,
   origin: string | null,
 ): Promise<AuthenticatedOwnerResult> => {

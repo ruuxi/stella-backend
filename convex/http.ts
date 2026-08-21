@@ -10,6 +10,7 @@ import { registerBackupRoutes } from "./http_routes/backups";
 import { registerDesktopReleaseRoutes } from "./http_routes/desktop_releases";
 import { registerMediaRoutes } from "./http_routes/media";
 import { registerMobileRoutes } from "./http_routes/mobile";
+import { registerMobileSchedulesRoutes } from "./http_routes/mobile_schedules";
 import { registerNativeOAuthRoutes } from "./http_routes/native_oauth";
 import { registerPetRoutes } from "./http_routes/pets";
 
@@ -60,6 +61,7 @@ registerDesktopReleaseRoutes(http);
 registerMusicRoutes(http);
 registerMediaRoutes(http);
 registerMobileRoutes(http);
+registerMobileSchedulesRoutes(http);
 registerNativeOAuthRoutes(http);
 registerPetRoutes(http);
 registerVoiceRoutes(http);
